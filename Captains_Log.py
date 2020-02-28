@@ -3,9 +3,18 @@ from datetime import datetime
 import subprocess
 import os
 
-location_of_powershell_scripts = "C:\\Users\\JamesTKirk\\OneDrive\\Codes\\PythonProjects\\CaptainsLog\\Log_Script_Library\\" # This is where all the powershell scripts are stored.
-location_of_logs = "C:\\Users\\JamesTKirk\\OneDrive\\Logs\\"  # This is where the log file will be stored.
-num_logs = 30 # Number of files stored in Log folder.
+#--------------------------------------------------------------------------------------------------------------------------- 
+#                                                          EDIT THIS 
+#---------------------------------------------------------------------------------------------------------------------------
+# This is where all the powershell scripts are stored. (The Log_Script_Library folder)
+location_of_powershell_scripts = "C:\\Users\\JamesTKirk\\OneDrive\\Codes\\PythonProjects\\CaptainsLog\\Log_Script_Library\\" 
+
+# This is where all the log file will be stored. (You'll have to create this, wherever)
+location_of_logs = "C:\\Users\\JamesTKirk\\OneDrive\\Logs\\"  
+
+# Number of files stored/allowed in Log folder.
+num_logs = 30 
+#---------------------------------------------------------------------------------------------------------------------------
 
 
 def powershell_exe(destination_of_script,destination_of_file):
