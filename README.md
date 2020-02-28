@@ -36,7 +36,7 @@ num_logs = 30
 
 The *Log_Script_Library* folder, contains a number of Powershell scripts. Each of these scripts pulls a diffrent piece of information form the system. If you have a cool script that you'd like to log, feel free to add it to this file.
 
-The**_Captains_Log.py_** program is made op of three methods. The **CaptainsLog()** method runs the whole show. Inside this method the **Powershell()** method is used to execute each of the Powershell scripts and dump the output in the newly created Log file. Following this the **Maintainer()** method comes into play. This method looks at the folder the log fiels are being stored in and manages it accordingly. It insures that the number of log files in the folder does not surpass the number given to the variable **num_logs**. Once there are more log files than are alowed. It will start removing the oldes files untill the **num_logs** condition is met.
+The**_Captains_Log.py_** program is made op of three methods. The **CaptainsLog()** method runs the whole show. Inside this method the **Powershell_exe()** method is used to execute each of the Powershell scripts and dump the output in the newly created Log file. Following this the **Maintainer()** method comes into play. This method looks at the folder the log fiels are being stored in and manages it accordingly. It insures that the number of log files in the folder does not surpass the number given to the variable **num_logs**. Once there are more log files than are alowed. It will start removing the oldes files untill the **num_logs** condition is met.
 
 ## The Output, Baby! ##
 
