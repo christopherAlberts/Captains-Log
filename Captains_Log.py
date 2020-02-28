@@ -86,11 +86,13 @@ def CaptainsLog(script_file_name, log_file_name, num_of_files):
     powershell_exe(location_of_powershell_scripts + "DNS_Cache.txt",file)
     powershell_exe(location_of_powershell_scripts + "Powershell_Command_History.txt",file)
     powershell_exe(location_of_powershell_scripts + "Event_Log(100).txt",file)
-
+    
+    file.write("\nLive long, and prosper")
+    
     Maintainer(log_file_name, num_of_files) # This method is used to calculate the amount of log files in a folder. 
     # And remove the oldest files if there are to many.
 
-    file.write("\nLive long, and prosper")
+    
 
 CaptainsLog(location_of_powershell_scripts, location_of_logs, num_logs)
 
