@@ -38,7 +38,7 @@ The *Log_Script_Library* folder, contains a number of Powershell scripts. Each o
 
 ## The Output, Baby! ##
 
-I'll leave this for you to discover...
+I'll leave this for you to discover...To boldly go where no man has gone before!
 
 
 
