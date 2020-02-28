@@ -5,11 +5,7 @@ Awsome daily system logger!!!
 
 **_Space: the final frontier. These are the voyages of the starship Enterprise..._** 
 
-This is a cool lightweight daily systems loger. Find out what is really happening inside your PC.
-
-## How It Works: ##
-
-The *Log_Script_Library* folder, contains a number of Powershell scripts. Each of these scripts pulls a diffrent piece of information form the system. If you have a cool script that you'd like to log, feel free to add it to this file.
+This is a cool lightweight daily systems loger. Find out what is really happening inside your PC!
 
 ## Wanna Try It Out, It's only logical? ##
 
@@ -36,11 +32,14 @@ num_logs = 30
 
 5. You can now take the new **_Captains_Log.exe_** and put it in your systems startup file. This will ensure that each time your computer boots up, the program will be execute and generate a log, which will be placed in the log file. To open the startup folder, bring up the Run box, type in **shell:common startup** and hit Enter. 
 
+## How It Works: ##
+
+The *Log_Script_Library* folder, contains a number of Powershell scripts. Each of these scripts pulls a diffrent piece of information form the system. If you have a cool script that you'd like to log, feel free to add it to this file.
+
 ## The Output, Baby! ##
 
-```
+I'll leave this for you to discover...
 
-```
 
 
 
