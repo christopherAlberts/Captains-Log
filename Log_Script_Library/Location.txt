@@ -1,0 +1,3 @@
+echo `n
+echo Location:
+Invoke-RestMethod -Uri 'http://ipinfo.io'
