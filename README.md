@@ -5,7 +5,7 @@ An out of this world daily system logger!!!
 
 **_Space: the final frontier. These are the voyages of the starship Enterprise..._** 
 
-This is a cool lightweight daily systems loger. Find out what is really happening inside your PC!
+This is a cool lightweight daily systems loger. Find out what's really happening inside your PC!
 
 ## Wanna Try It Out, It's only logical? ##
 
