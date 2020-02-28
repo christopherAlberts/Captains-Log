@@ -26,7 +26,7 @@ location_of_logs = "C:\\Users\\JamesTKirk\\OneDrive\\Logs\\"
 # Number of files stored/allowed in Log folder.
 num_logs = 30 
 ```
-*If you can get through this without to much crying, we've got a good change of makeing it to the end of this tutorial.*
+*If you can get through this without to much crying, we've got a good chance of makeing it to the end of this tutorial.*
 
 4. Once the variables are edited correctly, all thats left is for us to make the **_Captains_Log.py_** an executable. The following link describes how to do this: https://www.pyinstaller.org/
 
