@@ -3,8 +3,6 @@ An out of this world daily system logger!!!
 
 ![](Image/CaptainsLogLogo.png)
 
-**_Space: the final frontier. These are the voyages of the starship Enterprise..._** 
-
 This is a cool lightweight daily systems loger. Find out what is really happening inside your PC!
 
 ## Wanna Try It Out, It's only logical? ##
