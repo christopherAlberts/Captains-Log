@@ -1,5 +1,5 @@
 # CaptainsLog
-Awsome daily system logger!!!
+An out of this world daily system logger!!!
 
 ![](Image/CaptainsLogLogo.png)
 
