@@ -17,7 +17,7 @@ num_logs = 3
 #---------------------------------------------------------------------------------------------------------------------------
 
 
-def powershell_exe(destination_of_script,destination_of_file):
+def Powershell_exe(destination_of_script,destination_of_file):
 
     # This method can execute powershell scripts 
     # located in both .txt and .ps1 files
@@ -29,7 +29,7 @@ def powershell_exe(destination_of_script,destination_of_file):
     p1 = subprocess.run(["powershell.exe", script.read()], capture_output=True, text=True)
     return destination_of_file.write(p1.stdout)   
 
-def script_runner(script_folder_loction, output_file_location):
+def Script_Runner(script_folder_loction, output_file_location):
     
     # This method iterates through the script folder. 
     # It then uses the Powershell_exe() method to execute each file.
@@ -42,8 +42,9 @@ def script_runner(script_folder_loction, output_file_location):
             
             # scrit = path to a script file
             script = os.path.join(script_folder_loction, filename)
-
-            powershell_exe(script,output_file_location)
+            
+            # The Powershell_exe() method is now used to execute te "script" file.
+            Powershell_exe(script,output_file_location)
 
             continue
         else:
@@ -93,7 +94,7 @@ def CaptainsLog(script_file_name, log_file_name, num_of_files):
     file.write("Stardate: " + stardate + "\n")
     file.write("##############################\n")
 
-    script_runner(script_file_name, file)
+    Script_Runner(script_file_name, file)
     
     file.write("\nLive long, and prosper\n")
     
