@@ -1,3 +1,0 @@
-echo `n
-echo GPU_Info:
-Get-WmiObject win32_videocontroller
