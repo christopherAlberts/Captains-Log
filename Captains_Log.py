@@ -95,7 +95,7 @@ def CaptainsLog(script_file_name, log_file_name, num_of_files):
 
     script_runner(script_file_name, file)
     
-    file.write("\nLive long, and prosper")
+    file.write("\nLive long, and prosper\n")
 
     Maintainer(log_file_name, num_of_files) # This method is used to calculate the amount of log files in a folder. 
     # And remove the oldest files if there are to many.
