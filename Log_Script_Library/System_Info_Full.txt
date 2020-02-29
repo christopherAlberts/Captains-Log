@@ -1,3 +1,0 @@
-echo `n
-echo System_Info_Full:
-Get-CimInstance Win32_OperatingSystem | FL *
