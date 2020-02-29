@@ -7,10 +7,10 @@ import os
 #                                                          EDIT THIS 
 #---------------------------------------------------------------------------------------------------------------------------
 # This is where all the powershell scripts are stored. (The Log_Script_Library folder)
-location_of_powershell_scripts = "C:\\Users\\chris\\OneDrive\\Codes\\PythonProjects\\CaptainsLog\\Log_Script_Library\\" 
+location_of_powershell_scripts = "C:\\Users\\JamesTKirk\\OneDrive\\Codes\\PythonProjects\\CaptainsLog\\Log_Script_Library\\" 
 
 # This is where all the log file will be stored. (You'll have to create this, wherever)
-location_of_logs = "C:\\Users\\chris\\OneDrive\\Logs\\"  
+location_of_logs = "C:\\Users\\JamesTKirk\\OneDrive\\Logs\\"  
 
 # Number of files stored/allowed in Log folder.
 num_logs = 3
