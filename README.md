@@ -30,7 +30,7 @@ num_logs = 30
 
 4. Once the variables are edited correctly, all thats left is for us to make the **_Captains_Log.py_** an executable. The following link describes how to do this: https://www.pyinstaller.org/
 
-5. You can now take the new **_Captains_Log.exe_** and put it in your systems startup file. This will ensure that each time your computer boots up, the program will be execute and generate a log, which will be placed in the log file. To open the startup folder, bring up the Run box, type in **shell:common startup** and hit Enter. 
+5. You can now take the new **_Captains_Log.exe_** and put it in your systems startup file. This will ensure that each time your computer boots up, the program will be execute and generate a log, which will be placed in the log folder. To open the startup folder, bring up the Run box, type in **shell:common startup** and hit Enter. 
 
 ## How It Works: ##
 
