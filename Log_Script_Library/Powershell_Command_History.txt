@@ -1,4 +1,0 @@
-echo `n
-echo Powershell_Command_History:
-echo `n
-cat (Get-PSReadlineOption).HistorySavePath
