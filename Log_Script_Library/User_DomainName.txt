@@ -1,2 +1,0 @@
-echo `n
-[System.Security.Principal.WindowsIdentity]::GetCurrent().Name
