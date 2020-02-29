@@ -1,0 +1,4 @@
+echo `n
+echo Event_Log_100:
+$A = Get-EventLog -LogName System -Newest 100
+$A | Select-Object -Property *
