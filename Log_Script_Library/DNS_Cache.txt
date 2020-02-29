@@ -1,3 +1,0 @@
-echo `n
-echo DNS_Cache:
-Get-DnsClientCache
