@@ -31,7 +31,7 @@ def powershell_exe(destination_of_script,destination_of_file):
 
 def script_runner(script_folder_loction, output_file_location):
     
-    # This method itaratest through the script folder. 
+    # This method iterates through the script folder. 
     # It then uses the Powershell_exe() method to execute each file.
 
     # script_folder_loction = Location where all powershell scripts are stored.
@@ -96,9 +96,10 @@ def CaptainsLog(script_file_name, log_file_name, num_of_files):
     script_runner(script_file_name, file)
     
     file.write("\nLive long, and prosper\n")
-
-    Maintainer(log_file_name, num_of_files) # This method is used to calculate the amount of log files in a folder. 
+    
+    # This method is used to calculate the amount of log files in a folder. 
     # And remove the oldest files if there are to many.
+    Maintainer(log_file_name, num_of_files)
 
 
 CaptainsLog(location_of_powershell_scripts, location_of_logs, num_logs)
