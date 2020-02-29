@@ -1,3 +1,0 @@
-echo `n
-echo Battery_%:
-(Get-WmiObject -Class Win32_Battery).estimatedchargeremaining
