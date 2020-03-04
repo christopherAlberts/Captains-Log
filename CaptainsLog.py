@@ -17,6 +17,10 @@ num_logs = 30
 #---------------------------------------------------------------------------------------------------------------------------
 
 def CaptainsLog(script_file_name, log_file_name, num_of_files):
+    
+    # script_file_name = This is where all the powershell scripts are stored.
+    # log_file_name = Name of folder containing the files and its path. 
+    # num_of_files = Number of files allowed in log folder.
 
     def Powershell_exe(destination_of_script,destination_of_file):
 
@@ -78,10 +82,6 @@ def CaptainsLog(script_file_name, log_file_name, num_of_files):
             else:
                 break
 
-
-    # script_file_name = This is where all the powershell scripts are stored.
-    # log_file_name = Name of folder containing the files and its path. 
-    # num_of_files = Number of files allowed in log folder.
     
     stardate = datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
     stardate1 = str(stardate) + ".txt"
