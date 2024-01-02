@@ -25,7 +25,7 @@ def script_runner(script_folder_location, output_file_location):
     # script_folder_loction = Location where all powershell scripts are stored.
     # output_file_location = The location of the log file.
 
-    for filename in tqdm(os.listdir(script_folder_location), desc="-> Running Scripts..."):
+    for filename in tqdm(os.listdir(script_folder_location), desc="Running Scripts..."):
         if filename.endswith(".txt") or filename.endswith(".ps1"):
 
             # scrit = path to a script file
