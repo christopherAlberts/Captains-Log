@@ -1,4 +1,4 @@
-# CaptainsLog
+# Captains Log
 An out of this world daily system logger!!!
 
 ![](Image/CaptainsLogLogo.png)
