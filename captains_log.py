@@ -109,7 +109,7 @@ if __name__ == "__main__":
     location_of_powershell_scripts = "programs/captains_log/Log_Script_Library"
 
     # This is where all the log file will be stored. (You'll have to create this, wherever)
-    location_of_logs = "programs/captains_log/logs/"
+    location_of_logs = "data/captains_log/logs/"
 
     # Number of files stored/allowed in Log folder.
     num_logs = 30
